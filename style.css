@@ -1,0 +1,81 @@
+.navbar{
+  padding-top: 1rem;
+  padding-left: .8rem;
+  padding-right: .8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.icon img{
+  width: 60%;
+}
+.menu-hamburger{
+  position: relative;
+  /* background-color: rebeccapurple; */
+  width: 50%;
+}
+.menu-hamburger img{
+  float: right;
+  cursor: pointer;
+}
+.menu{
+ display: block;
+  position: absolute;
+  right: 2%;
+  top: 100%;
+  margin-top: 1rem;
+  border-radius: 5px;
+  width: 20.5rem;
+  height: 21rem;
+  text-align: center;
+  background-color: hsl(257, 27%, 26%);
+  z-index: 9999;
+}
+.hide{
+  display: none;
+}
+
+.menu ul{
+  list-style: none;
+  /* text-align: left; */
+  padding-right: 2rem;
+  margin:2rem auto;
+}
+.menu li{
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'poppins';
+  margin-bottom: 1.3rem;
+  color: white;
+}
+.last-child{
+  background-color: hsl(180, 66%, 49%);
+  padding: .6rem 7rem;
+  border: none;
+  border-radius: 20px;
+  font-family: 'poppins';
+  font-weight: 700;
+  color: white;
+  font-size: 18px;
+
+}
+.second-list{
+  margin-top: 3rem;
+  width: 90%;
+  border: 1px solid #8c8b8b;
+  opacity: .5;
+}
+.illustration{
+  text-align: center;
+  position: relative;
+  height: 17.688rem;
+}
+.illustration img{
+  width: 29rem;
+  height: 18rem;
+  position: absolute;
+  right: -38%;
+  top: 5%;
+}

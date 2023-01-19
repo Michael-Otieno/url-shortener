@@ -4,7 +4,17 @@ let contents = document.getElementById('contents')
 let error = document.getElementById("error")
 
 
-form.addEventListener('submit',function(e){
+
+function toggle() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+form?.addEventListener('submit',function(e){
   e.preventDefault()
   if(inputVal.value===""){
     inputVal.style.border = "1px solid red"
@@ -48,12 +58,9 @@ const shortUrl = async()=>{
   }catch(err){
     console.log(err)
   }
-  
-  
-  
-
 
 }
+
 
 
 
