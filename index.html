@@ -9,31 +9,40 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <!-- navbar -->
   <div class="navbar">
     <div class="icon">
       <img src="./images/logo.svg" alt="">
     </div>
     <div class="menu-hamburger">
       <img src="./images/hamburger-.png" alt="" id="hamburger" onclick="toggle()">
-      <div class="menu hide" id="menu">
-        <ul>
-          <li>Features</li>
-          <li>Pricing</li>
-          <li>Resources</li>
-        </ul>
+      <div class="menu" id="menu">
+        <div>
+          <ul>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>Resources</li>
+          </ul>
+        </div>
         <hr class="second-list">
-        <ul>
-          <li>Login</li>
-        </ul>
-        <button class="last-child">Sign Up</>
+        <div class="menu-li-btn">
+          <div class="login">
+            <a>Login</a>
+          </div>
+          <div>
+            <button class="last-child">Sign Up</>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div>
+  <!-- landing page -->
+  <div class="landing-section">
     <div class="illustration">
       <img src="./images//illustration-working.svg" alt="">
+      
     </div>
-    <div>
+    <div class="landing-page-text">
       <h1>More than just shorter links</h1>
       <p>
         Build your brands recognition and get detailed insights on how your links are performing
@@ -41,14 +50,107 @@
       <button>Get Started</button>
     </div>
   </div>
-  <!-- <div>
-    <form id="form">
-      <input type="text" id="input-value"/>
-      <button type="submit" id="submit-id">Submit</button>
-      <span id="error"></span>
-    </form>
+  <div class="bg">
+    <div class="form">
+      <form id="form">
+        <div class="input">
+          <input type="text" id="input-value" placeholder="Shorten a link here..."/>
+          <p id="error"></p>
+        </div>
+        <div class="btn-error">
+          <button type="submit" id="submit-id">Shorten it!</button>
+        </div>
+      </form>
+    </div>
+    <div class="contents" id="contents">
+      <!-- <div  class="content"></div> -->
+    </div>
+    <div class="settings">
+      <h3>Advanced Statistics</h3>
+      <p>
+        Track how your links are performing across the web with our advanced statistics dashboard.
+      </p>
+    </div>
+    <div class="details-">
+      <!-- brand -->
+      <div class="brand brand-">
+        <div class="img">
+          <img src="./images/icon-brand-recognition.svg" alt="">
+        </div>
+        <h3>Brand Recognition</h3>
+        <p>Boost your brand recognition with each click.Generic links don't mean a thing. Branded links help instil confidence in your content</p>
+        <div class="vl"></div>
+      </div>
+      <!-- detailed -->
+      <div class="brand detailed-records">
+        <div class="img">
+          <img class="detailed-img" src="./images/icon-detailed-records.svg" alt="">
+        </div>
+        <h3>Detailed Records</h3>
+        <p>
+          Gain insights into who is clicking your links.Knowing when and where people engage with your content helps inform better decisions.
+        </p>
+        <div class="vl"></div>
+
+      </div>
+      <!-- fully -->
+      <div class="brand fully-customized">
+        <div class="img">
+          <img  class="fully-img" src="./images/icon-fully-customizable.svg" alt="">
+        </div>
+        <h3>Fully Customized</h3>
+        <p>
+          Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+        </p>
+      </div>
+    </div>
   </div>
-  <div id="contents">mmm</div> -->
+  <div class="boost">
+    <div class="boost-contents">
+      <h4>Boost your links today</h4>
+      <button>Get Started</button>
+    </div>
+  </div>
+  <div class="footer">
+    <h3>Shortly</h3>
+    <!-- features -->
+    <div class="footer-links">
+      <h5>Features</h5>
+      <ul>
+        <li>Link Shortening</li>
+        <li>Branded Links</li>
+        <li>Analytics</li>
+      </ul>
+    </div>
+    <!-- resources -->
+    <div class="footer-links">
+      <h5>Resources</h5>
+      <ul>
+        <li>Blog</li>
+        <li>Developers</li>
+        <li>Support</li>
+      </ul>
+    </div>
+    <!-- company -->
+    <div class="footer-links">
+      <h5>Company</h5>
+      <ul>
+        <li>About</li>
+        <li>Our Teams</li>
+        <li>Careers</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div class="footer-icons">
+      <img src="./images/icon-facebook.svg" alt="">
+      <img src="./images/icon-twitter.svg" alt="">
+      <img src="/images/icon-pinterest.svg" alt="">
+      <img src="./images/icon-instagram.svg" alt="">
+    </div>
+  </div>
+
+
+
   <script src="/script.js" defer></script>
 </body>
 
